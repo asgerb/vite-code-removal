@@ -1,4 +1,4 @@
-# Vite issue
+# Vite stripping part of imported module
 
 Vite strips out an important part of the `@github/text-expander-element` module.
 
