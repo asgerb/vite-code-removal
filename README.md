@@ -1,6 +1,6 @@
 # Vite stripping part of imported module
 
-Vite strips out an important part of the `@github/text-expander-element` module.
+Vite transforms and strips out an important part of the `@github/text-expander-element` module.
 
 Compare the resulting js
 
@@ -74,7 +74,7 @@ onCommit({ target }) {
 }
 ```
 
-The build file makes an early return (perhaps it infers it?) which results in the element not working.
+The build file removes some constants and inserts an early return which results in the element not working.
 
 ## Vite config
 

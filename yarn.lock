@@ -3181,7 +3181,7 @@ vite-plugin-sass-glob-import@^2.0.0:
     glob "^7.2.0"
     minimatch "^3.0.5"
 
-vite@^4.4.4:
+vite@^4.4.9:
   version "4.4.9"
   resolved "https://registry.yarnpkg.com/vite/-/vite-4.4.9.tgz#1402423f1a2f8d66fd8d15e351127c7236d29d3d"
   integrity sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==
