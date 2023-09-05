@@ -4,7 +4,7 @@ Vite strips out an important part of the `@github/text-expander-element` module.
 
 Compare the resulting js
 
-```
+```js
 onCommit({ target }) {
   const item = target
   if (!(item instanceof HTMLElement)) return
@@ -24,7 +24,7 @@ onCommit({ target }) {
 
 to the original:
 
-```
+```js
 onCommit({ target }) {
   var _a
   const item = target
