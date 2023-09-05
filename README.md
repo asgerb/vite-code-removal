@@ -78,7 +78,7 @@ The build file makes an early return (perhaps it infers it?) which results in th
 
 ## Vite config
 
-```
+```js
 import { resolve } from "path"
 import { defineConfig } from "vite"
 
