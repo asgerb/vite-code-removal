@@ -1,18 +1,10 @@
 {
-  "name": "@asgerb/apparatus",
+  "name": "@asgerb/vite-code-removal",
   "description": "Apparatus CMS",
   "author": "Asger Behncke Jacobsen <a@asgerbehnckejacobsen.dk> (http://asgerbehnckejacobsen.dk)",
-  "version": "3.26.2",
+  "version": "0.0.1",
   "license": "UNLICENSED",
-  "repository": "git://github.com/asgerb/apparatus.git",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "style": "package/dist/application.css",
-  "sass": "package/src/ui/partials/_index.scss",
-  "files": [
-    "package/**/*"
-  ],
+  "repository": "git://github.com/asgerb/vite-code-removal.git",
   "exports": {
     "./admin": {
       "import": "./package/dist/admin.mjs",
