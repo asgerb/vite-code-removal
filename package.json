@@ -1,0 +1,48 @@
+{
+  "name": "@asgerb/apparatus",
+  "description": "Apparatus CMS",
+  "author": "Asger Behncke Jacobsen <a@asgerbehnckejacobsen.dk> (http://asgerbehnckejacobsen.dk)",
+  "version": "3.26.2",
+  "license": "UNLICENSED",
+  "repository": "git://github.com/asgerb/apparatus.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "style": "package/dist/application.css",
+  "sass": "package/src/ui/partials/_index.scss",
+  "files": [
+    "package/**/*"
+  ],
+  "exports": {
+    "./admin": {
+      "import": "./package/dist/admin.mjs",
+      "require": "./package/dist/admin.cjs"
+    }
+  },
+  "engines": {
+    "node": ">=14.16"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@github/text-expander-element": "^2.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
+    "@babel/plugin-transform-classes": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-istanbul": "^6.1.1",
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "prettier-eslint": "^15.0.1",
+    "vite": "^4.4.4",
+    "vite-plugin-sass-glob-import": "^2.0.0"
+  }
+}
